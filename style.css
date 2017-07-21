@@ -1,0 +1,80 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* Background: #F2F1E8 
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343 */
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    /* line-height: 1.8; */
+    background-color: #F2F1E8;
+}
+
+.mainNav {
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 1rem 0; */
+    box-shadow: 0 0 .2rem 0 #ccc;
+}
+
+.navLinks {
+    display: flex;
+    /* justify-content: space-around;
+    margin: 0 35rem; */
+    font-size: 1.3rem;
+}
+
+#logo img {
+    max-height: 2.5rem;
+    padding-top: 1rem;
+}
+
+
+/* .mainNav a {
+    justify-content: center;
+} */
+
+
+/* unvisited link */
+
+a:link {
+    color: #2B2F26;
+}
+
+
+/* visited link */
+
+
+/* a:visited {
+    color: #968772;
+} */
+
+
+/* mouse over link */
+
+a:hover {
+    color: #CD5D67;
+}
+
+
+/* Active link */
+
+
+/* a:active {
+    color: red;
+} */
