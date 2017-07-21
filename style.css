@@ -78,3 +78,16 @@ a:hover {
 /* a:active {
     color: red;
 } */
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    margin: -2rem 0 3rem 0;
+}
