@@ -62,6 +62,7 @@ body {
     /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
+    z-index: 1;
 }
 
 #logo img {
@@ -205,32 +206,37 @@ h2 {
     display: flex;
     justify-content: space-around;
     height: 400px;
+    margin-bottom: -63px;
 }
 
 .product-1 {
-    /* height: 400px; */
-    width: 58%;
+    width: 58.5%;
     background-image: url("images/product-1.jpg");
     overflow: hidden;
-    zoom: 60%;
+    background-position: 60% 10%;
+    zoom: 55%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .product-2 {
-    /* height: 400px; */
-    width: 18%;
+    width: 18.5%;
     overflow: hidden;
     background-image: url("images/product-2.jpg");
     background-position: 50% 50%;
-    zoom: 40%;
+    zoom: 50%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .product-3 {
-    /* height: 400px; */
-    width: 18%;
+    width: 18.5%;
     overflow: hidden;
     background-image: url("images/product-3.jpg");
     background-position: 20% 20%;
-    zoom: 30%;
+    background-repeat: no-repeat;
+    position: relative;
+    zoom: 32%;
 }
 
 .images-bottom-row {
@@ -238,30 +244,59 @@ h2 {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
+    height: 250px;
 }
 
 .product-4 {
-    height: 250px;
-    width: 18%;
+    width: 18.5%;
     overflow: hidden;
+    background-image: url("images/product-4.jpg");
+    background-position: 10% 50%;
+    zoom: 35%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .product-5 {
-    height: 250px;
-    width: 18%;
+    width: 18.5%;
     overflow: hidden;
+    background-image: url("images/product-5.jpg");
+    background-position: 0% 50%;
+    zoom: 35%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .product-6 {
-    height: 250px;
-    width: 18%;
+    width: 39%;
     overflow: hidden;
+    background-image: url("images/product-6.jpg");
+    background-position: 50% 20%;
+    zoom: 55%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .product-7 {
-    height: 250px;
-    width: 18%;
+    width: 18.5%;
     overflow: hidden;
+    background-image: url("images/product-7.jpg");
+    background-position: 15% 40%;
+    zoom: 35%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    color: #F2F1E8;
+    background: #3d3e3f;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 .newsletter {
