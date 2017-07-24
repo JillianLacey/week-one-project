@@ -31,9 +31,7 @@ body {
     /* padding: 1rem 0; */
     box-shadow: 0 0 .2rem 0 #F0F5F8;
     position: fixed;
-    /* Set the navbar to fixed position */
     top: 0;
-    /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
     z-index: 1;
@@ -42,8 +40,6 @@ body {
 #logo img {
     max-height: 2.7rem;
     max-width: 2.7rem;
-    /* padding: 1rem;
-            transform: translateY(1em); */
     float: left;
     padding: 1rem;
 }
@@ -106,7 +102,6 @@ footer {
     text-align: center;
     font-weight: 400;
     margin-top: 100px;
-    f
 }
 
 .headline h2 {
@@ -125,36 +120,6 @@ footer {
     margin-bottom: -63px;
 }
 
-.product-1 {
-    width: 58.5%;
-    background-image: url("images/product-1.jpg");
-    overflow: hidden;
-    background-position: 60% 10%;
-    zoom: 55%;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.product-2 {
-    width: 18.5%;
-    overflow: hidden;
-    background-image: url("images/product-2.jpg");
-    background-position: 50% 50%;
-    zoom: 50%;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-.product-3 {
-    width: 18.5%;
-    overflow: hidden;
-    background-image: url("images/product-3.jpg");
-    background-position: 20% 20%;
-    background-repeat: no-repeat;
-    position: relative;
-    zoom: 32%;
-}
-
 .images-bottom-row {
     list-style: none;
     padding: 2rem;
@@ -163,56 +128,73 @@ footer {
     height: 250px;
 }
 
-.product-4 {
-    width: 18.5%;
-    overflow: hidden;
-    background-image: url("images/product-4.jpg");
-    background-position: 10% 50%;
-    zoom: 35%;
-    background-repeat: no-repeat;
+.images-top-row li {
+    margin: 0 15px 0 0;
+}
+
+.images-bottom-row li {
+    margin: 0 15px 0 0;
+}
+
+.product-1 {
+    background-image: url("images/product-1.jpg");
     position: relative;
+    background-size: cover;
+    flex: 3;
+}
+
+.product-2 {
+    background-image: url("images/product-2.jpg");
+    position: relative;
+    background-size: cover;
+    flex: 1;
+}
+
+.product-3 {
+    background-image: url("images/product-3.jpg");
+    position: relative;
+    background-size: cover;
+    flex: 1;
+}
+
+.product-4 {
+    background-image: url("images/product-4.jpg");
+    position: relative;
+    background-size: cover;
+    flex: 1;
 }
 
 .product-5 {
-    width: 18.5%;
-    overflow: hidden;
     background-image: url("images/product-5.jpg");
-    background-position: 0% 50%;
-    zoom: 35%;
-    background-repeat: no-repeat;
     position: relative;
+    background-size: cover;
+    flex: 1;
 }
 
 .product-6 {
-    width: 39%;
-    overflow: hidden;
     background-image: url("images/product-6.jpg");
-    background-position: 50% 20%;
-    zoom: 55%;
-    background-repeat: no-repeat;
     position: relative;
+    background-size: cover;
+    flex: 3;
 }
 
 .product-7 {
-    width: 18.5%;
-    overflow: hidden;
     background-image: url("images/product-7.jpg");
-    background-position: 15% 40%;
-    zoom: 35%;
-    background-repeat: no-repeat;
     position: relative;
+    background-size: cover;
+    flex: 1;
 }
 
 .caption {
     position: absolute;
-    height: 50px;
+    height: 40px;
     bottom: 0px;
     left: 0px;
     color: #F2F1E8;
     background: #3d3e3f;
     text-align: center;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .wrapper-about {
@@ -225,7 +207,7 @@ footer {
     font-size: 4rem;
 }
 
-.wrapper-about h2 {
+.wrapper-about h2, .section-facilities h2, .table-container h2 {
     font-weight: 200;
     font-size: 2rem;
 }
@@ -264,15 +246,12 @@ footer {
     font-size: 3rem;
     background-size: cover;
     vertical-align: middle;
+    height: 300px;
+    background-attachment: fixed;
 }
 
 .section-facilities {
     margin: 5rem 20rem;
-}
-
-.section-facilities h2 {
-    font-weight: 200;
-    font-size: 2rem;
 }
 
 .facilities {
@@ -287,16 +266,14 @@ figure {
     font-size: smaller;
 }
 
-
-/* .table-container {
-    position: center;
-    margin: 0 0 15px 30px;
-} */
+.table-container {
+    margin: 5rem 20rem;
+}
 
 table {
     border: 1px solid #3d3e3f;
-    width: 100%;
-    margin: 0 50px 30px 0;
+    width: auto;
+    margin-bottom: 3rem;
 }
 
 .color-row {
@@ -309,13 +286,67 @@ table, td, th {
     border: 1px solid #3d3e3f;
     border-collapse: collapse;
     /* margin-bottom: 15px; */
+    padding: 1rem
 }
 
 .newsletter {
     background-image: url("images/background-2.jpg");
     width: 100%;
-    height: 400px;
-    margin-top: 10px;
+    height: 800px;
+    margin-top: 10x;
+    padding: 80px;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    /* background-position: bottom right, left, right; */
+    /* zoom: 40%; */
+    /* background-position: bottom right, left, right;    */
+}
+
+.form {
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 1rem;
+    margin: -30px -30px 30px -30px;
+}
+
+.form p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1rem;
+    margin: -30px -30px 30px -30px;
+}
+
+.form input[type="text"], .form input[type="email"] {
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 0 0 .2rem 0;
+    border: none;
+    border-bottom: 1px solid #968772;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #968772;
+    font-size: 1rem;
+    height: 60px;
+}
+
+.form input[type="button"], .form input[type="submit"] {
+    background-color: #968772;
+    border: 1px solid #968772;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transform: translateX(13rem);
+    margin-top: 1rem;
 }
