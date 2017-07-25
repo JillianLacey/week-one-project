@@ -8,10 +8,11 @@ body {
     background-color: #FFFFFF;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    /* padding: 1rem 0; */
     box-shadow: 0 0 .2rem 0 #F0F5F8;
     position: fixed;
+    /* Set the navbar to fixed position */
     top: 0;
+    /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
     z-index: 1;
@@ -39,6 +40,62 @@ body {
 
 /* unvisited link */
 
+
+/* a:link {
+                    color: #2B2F26; */
+
+
+/* visited link */
+
+a:visited {
+    color: #968772;
+}
+
+
+/* mouse over link */
+
+a.selected {
+    color: #2B2F26;
+}
+
+a:hover {
+    color: #CD5D67;
+}
+
+
+/* active link */
+
+
+/* a:active {
+                            color: #968772; */
+
+
+/* ----------Starting Style in Body */
+
+footer {
+    background-color: #3d3e3f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.headline h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.headline h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    margin: -2rem 0 3rem 0;
+}
+
+
+/* unvisited link */
+
 a:link {
     color: #2B2F26;
 }
@@ -58,52 +115,31 @@ a.selected, a:hover {
 }
 
 
-/* active link */
+/* Active link */
 
 a:active {
     color: #968772;
 }
 
-footer {
-    background-color: #3d3e3f;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 1rem;
-}
-
-.headline h1 {
-    font-size: 4rem;
-    text-align: center;
-    font-weight: 400;
-    margin-top: 100px;
-}
-
-.headline h2 {
-    font-size: 2rem;
-    text-align: center;
-    font-weight: 200;
-    margin: -2rem 0 3rem 0;
-}
-
 .images-top-row {
+    display: flex;
     list-style: none;
     padding: 2rem;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 400px;
     margin-bottom: -63px;
 }
 
-.images-bottom-row {
-    list-style: none;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-around;
-    height: 250px;
-}
-
 .images-top-row li {
     margin: 0 15px 0 0;
+}
+
+.images-bottom-row {
+    display: flex;
+    list-style: none;
+    padding: 2rem;
+    justify-content: space-around;
+    height: 250px;
 }
 
 .images-bottom-row li {
@@ -112,50 +148,50 @@ footer {
 
 .product-1 {
     background-image: url("images/product-1.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 3;
 }
 
 .product-2 {
     background-image: url("images/product-2.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 1;
 }
 
 .product-3 {
     background-image: url("images/product-3.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 1;
 }
 
 .product-4 {
     background-image: url("images/product-4.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 1;
 }
 
 .product-5 {
     background-image: url("images/product-5.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 1;
 }
 
 .product-6 {
     background-image: url("images/product-6.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 3;
 }
 
 .product-7 {
     background-image: url("images/product-7.jpg");
-    position: relative;
     background-size: cover;
+    position: relative;
     flex: 1;
 }
 
@@ -171,19 +207,11 @@ footer {
     padding: 1rem 1rem 0 1rem;
 }
 
+
+/* ------------start about.html styling */
+
 .wrapper-about {
     margin: 8rem 20rem;
-}
-
-.wrapper-about h1 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 4rem;
-}
-
-.wrapper-about h2, .section-facilities h2, .table-container h2 {
-    font-weight: 200;
-    font-size: 2rem;
 }
 
 .image-container img {
@@ -193,8 +221,19 @@ footer {
     padding: 0 1.2rem .2rem 0;
 }
 
+.wrapper-about h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.wrapper-about h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
 .main-text p {
-    line-height: 2.3rem;
+    line-height: 2.5rem;
 }
 
 .quote blockquote {
@@ -220,12 +259,18 @@ footer {
     font-size: 3rem;
     background-size: cover;
     vertical-align: middle;
+    /* add for parallax */
     height: 300px;
     background-attachment: fixed;
 }
 
 .section-facilities {
     margin: 5rem 20rem;
+}
+
+.section-facilities h2 {
+    font-weight: 200;
+    font-size: 2rem;
 }
 
 .facilities {
@@ -242,6 +287,11 @@ figure {
 
 .table-container {
     margin: 5rem 20rem;
+}
+
+.table-container h2 {
+    font-weight: 200;
+    font-size: 2rem;
 }
 
 table {
@@ -261,6 +311,9 @@ table, td, th {
     border-collapse: collapse;
     padding: 1rem
 }
+
+
+/* -----------start newsletter styling */
 
 .newsletter {
     background-image: url("images/background-2.jpg");
@@ -312,7 +365,7 @@ table, td, th {
     background-color: #968772;
     border: 1px solid #968772;
     cursor: pointer;
-    color: #FFFFFF;
+    color: #F2F1E8;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 10px 15px;
