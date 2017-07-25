@@ -68,6 +68,7 @@ The newsletter signup page has a minimum height of the viewport's height.
 The newsletter signup module is centered horizontally and vertically on the page.
 The "Name" input field on the newsletter page should have the type text.
 The "Email" input field on the newsletter page should have the type email.
+
 Step 6: Submitting this Project
 
 You will need to turn this project in via Github. Track the files of this project with git and submit a Github link to the remote repository.
