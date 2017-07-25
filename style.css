@@ -42,7 +42,7 @@ body {
 
 
 /* a:link {
-                    color: #2B2F26; */
+color: #2B2F26; */
 
 
 /* visited link */
@@ -67,10 +67,10 @@ a:hover {
 
 
 /* a:active {
-                            color: #968772; */
+color: #968772; */
 
 
-/* ----------Starting Style in Body */
+/* ----------Starting Style in Body ---------------*/
 
 footer {
     background-color: #3d3e3f;
@@ -123,9 +123,9 @@ a:active {
 
 .images-top-row {
     display: flex;
+    justify-content: space-between;
     list-style: none;
     padding: 2rem;
-    justify-content: space-between;
     height: 400px;
     margin-bottom: -63px;
 }
@@ -196,29 +196,29 @@ a:active {
 }
 
 .caption {
+    padding: 1rem 1rem 0 1rem;
+    background: #3d3e3f;
     position: absolute;
+    text-align: center;
+    color: #F2F1E8;
+    font-size: 1rem;
     height: 40px;
     bottom: 0px;
     left: 0px;
-    color: #F2F1E8;
-    background: #3d3e3f;
-    text-align: center;
-    font-size: 1rem;
-    padding: 1rem 1rem 0 1rem;
 }
 
 
-/* ------------start about.html styling */
+/* ------------start about.html styling------------ */
 
 .wrapper-about {
     margin: 8rem 20rem;
 }
 
 .image-container img {
+    padding: 0 1.2rem .2rem 0;
     float: left;
     height: 120px;
     width: auto;
-    padding: 0 1.2rem .2rem 0;
 }
 
 .wrapper-about h1 {
@@ -237,11 +237,11 @@ a:active {
 }
 
 .quote blockquote {
+    padding: 0 0 0 1.5rem;
     font-style: italic;
     line-height: 2rem;
     font-weight: 200;
     border-left: 1px solid #968772;
-    padding: 0 0 0 1.5rem;
 }
 
 .room-to-grow {
@@ -252,16 +252,15 @@ a:active {
 
 .room-to-grow h1 {
     background-image: url("images/background-3.jpg");
+    background-attachment: fixed;
     background-position: 15% 50%;
+    background-size: cover;
+    vertical-align: middle;
+    height: 300px;
     text-align: center;
     color: white;
     font-weight: 200;
     font-size: 3rem;
-    background-size: cover;
-    vertical-align: middle;
-    /* add for parallax */
-    height: 300px;
-    background-attachment: fixed;
 }
 
 .section-facilities {
@@ -296,8 +295,8 @@ figure {
 
 table {
     border: 1px solid #3d3e3f;
-    width: auto;
     margin-bottom: 3rem;
+    width: auto;
 }
 
 .color-row {
@@ -313,7 +312,7 @@ table, td, th {
 }
 
 
-/* -----------start newsletter styling */
+/* -----------start newsletter styling ------------*/
 
 .newsletter {
     background-image: url("images/background-2.jpg");
@@ -347,6 +346,7 @@ table, td, th {
 }
 
 .form input[type="text"], .form input[type="email"] {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     outline: none;
     display: block;
@@ -355,18 +355,17 @@ table, td, th {
     border: none;
     border-bottom: 1px solid #968772;
     margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
     color: #968772;
     font-size: 1rem;
     height: 60px;
 }
 
 .form input[type="button"], .form input[type="submit"] {
+    font-family: 'Roboto', sans-serif;
     background-color: #968772;
     border: 1px solid #968772;
     cursor: pointer;
     color: #F2F1E8;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 10px 15px;
     text-decoration: none;
